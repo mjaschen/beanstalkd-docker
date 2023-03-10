@@ -78,5 +78,5 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_HUB_LOGIN }}
           password: ${{ secrets.DOCKER_HUB_TOKEN }}
-          repository: ${{ github.repository }}
+          repository: "mjaschen/beanstalkd"
           short-description: "Docker image for beanstalkd, available for x86_64 and ARM64."
